@@ -1,0 +1,169 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+   height: 550px;
+    
+}
+.container{
+    background-image: url(img/donation9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    
+}
+.header{
+    color: white;
+    margin: 0 auto;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+}
+.head1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.head2{
+    margin-bottom: 30px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: aliceblue;
+    background: tomato;
+   
+}
+.today{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.today ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+.today ul li{
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: gray;
+    margin-left: 10px;
+    
+}
+.today ul li:hover{
+    background-color: rgb(220, 176, 168);
+    border: 3px solid tomato;
+    color: tomato;
+}.taka{
+    border: none;
+    margin-top: 30px;
+    border-bottom: 2px solid gold;
+    width: 500px;
+    text-align: center;
+    padding-left: 60px;
+    outline: none;
+    margin-left: 50px;
+    
+}
+form{
+    margin-bottom: 30px;
+}
+
+.plan1{
+    text-align: center;
+}
+.plan2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5%;
+    
+    
+    
+}
+.family{
+    
+    padding: 2%;
+    margin-left: 5%;
+}
+#one{
+    background-color: rgb(98, 98, 229);
+}
+#two{
+    background-color: rgb(165, 142, 186);
+}
+#three{
+    background-color: rgb(190, 233, 218);
+}
+.service{
+    display: flex;
+}
+.row{
+    width: 40%;
+    margin-left: 2%;
+    text-align: justify;
+    padding: 5%;
+   
+}
+.row img{
+    width: 100%;
+}
+.sub{
+    text-align: center;
+}
+.sub form{
+    background-color: rgb(115, 151, 151);
+    padding: 30px 50px;
+    height: 100px;
+    width: 500px;
+    margin-left: 27%;
+    margin-top: 5%;
+    
+}
+.email{
+    background-color: #c6c18a;
+    margin-top: 8%;
+    padding: 10px 20px;
+    border-radius: 5px 0px 0 5px ;
+    position: relative;
+    outline: none;
+    border:none;
+
+}
+.sub a{
+    background-color: tomato;
+    border-radius: 0px 5px 5px 0px ;
+    text-decoration: none;
+    padding:5px 10px;
+    margin-top: 41px;
+    position: absolute;
+}
+.footer{
+   
+   
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+
+}
+
+.footer h2{
+    color: tomato;
+    margin-bottom: 30px;
+   
+    padding-top: 50px;
+   
+}
+.footer small{
+    color: azure;
+    font-weight: 200;
+}
